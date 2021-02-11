@@ -24,9 +24,9 @@ body header img {
 body header .navbar {
   justify-content: center;
   align-items: center;
-  background-color: green;
+  background-color: #b1d281;
   width: 100vw;
-  height: 30px;
+  height: 40px;
 }
 
 body header .navbar ul {
@@ -39,8 +39,8 @@ body header .navbar ul li {
 }
 
 body header .navbar ul li :hover {
-  text-decoration: underline;
-  color: blue;
+  border-bottom: 4px solid #002d75;
+  color: #002d75;
 }
 
 body header .navbar ul li a {
@@ -55,10 +55,32 @@ body main {
 body main .container h2 {
   padding-top: 20px;
   text-align: center;
+  color: #002d75;
 }
 
-body main .container .pasta img {
+body main .container .pasta .card {
   width: 30%;
   margin: 1.5%;
+  position: relative;
+}
+
+body main .container .pasta .card img {
+  width: 100%;
+}
+
+body main .container .pasta .card:hover .overlay {
+  opacity: 1;
+}
+
+body main .container .pasta .overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+body main .container .pasta .overlay img {
+  width: 50px;
 }
 

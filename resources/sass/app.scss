@@ -22,17 +22,17 @@ body {
         .navbar {
             justify-content: center;
             align-items: center;
-            background-color: green;
+            background-color: #b1d281;
             width: 100vw;
-            height: 30px;
+            height: 40px;
             ul {
                 display: flex;
                 list-style: none;
                 li {
                     margin: 0 20px;
                     :hover {
-                        text-decoration: underline;
-                        color: blue;
+                        border-bottom: 4px solid #002d75;
+                        color: #002d75;
                     }
                     a {
                         text-decoration: none;
@@ -48,11 +48,29 @@ body {
             h2 {
                 padding-top: 20px;
                 text-align: center;
+                color: #002d75;
             }
             .pasta {
-                img {
+                .card {
                     width: 30%;
                     margin: 1.5%;
+                    position: relative;
+                    img {
+                        width: 100%;
+                    }
+                }
+                .card:hover .overlay {
+                    opacity: 1;
+                }
+                .overlay {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    opacity: 0;
+                    img {
+                        width: 50px;
+                    }
                 }
             }
         }
