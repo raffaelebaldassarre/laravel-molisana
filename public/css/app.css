@@ -78,6 +78,8 @@ main .container .pasta .overlay {
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
+  flex-direction: column;
+  align-items: center;
 }
 
 main .container .pasta .overlay img {

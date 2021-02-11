@@ -4,8 +4,9 @@
     @if($pasta['tipo'] == 'lunga')
     <div class="card">
         <img src="{{ $pasta['src'] }}" alt="">
-        <div class="overlay">
+        <div class="overlay d-flex">
             <img src="{{ asset('/img/icon.svg') }}" alt="">
+            <p>{{ $pasta['titolo'] }}</p>
         </div>
     </div>
     @endif
@@ -17,8 +18,9 @@
     @if($pasta['tipo'] == 'corta')
     <div class="card">
         <img src="{{ $pasta['src'] }}" alt="">
-        <div class="overlay">
+        <div class="overlay d-flex">
             <img src="{{ asset('/img/icon.svg') }}" alt="">
+            <p>{{ $pasta['titolo'] }}</p>
         </div>
     </div>
     @endif
@@ -30,8 +32,9 @@
     @if($pasta['tipo'] == 'cortissima')
     <div class="card">
         <img src="{{ $pasta['src'] }}" alt="">
-        <div class="overlay">
+        <div class="overlay d-flex">
             <img src="{{ asset('/img/icon.svg') }}" alt="">
+            <p>{{ $pasta['titolo'] }}</p>
         </div>
     </div>
     @endif
