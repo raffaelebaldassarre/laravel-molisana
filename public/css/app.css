@@ -48,31 +48,31 @@ body header .navbar ul li a {
   color: white;
 }
 
-body main {
+main {
   background-image: url("/img/fondo-pag-speciali.jpg");
 }
 
-body main .container h2 {
+main .container h2 {
   padding-top: 20px;
   text-align: center;
   color: #002d75;
 }
 
-body main .container .pasta .card {
+main .container .pasta .card {
   width: 30%;
   margin: 1.5%;
   position: relative;
 }
 
-body main .container .pasta .card img {
+main .container .pasta .card img {
   width: 100%;
 }
 
-body main .container .pasta .card:hover .overlay {
+main .container .pasta .card:hover .overlay {
   opacity: 1;
 }
 
-body main .container .pasta .overlay {
+main .container .pasta .overlay {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -80,7 +80,7 @@ body main .container .pasta .overlay {
   opacity: 0;
 }
 
-body main .container .pasta .overlay img {
+main .container .pasta .overlay img {
   width: 50px;
 }
 

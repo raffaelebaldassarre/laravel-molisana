@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
     <main>
-        <div class="container">
+        <div class="container flex-wrap">
             @include('partials.pasta')
         </div>
     </main>

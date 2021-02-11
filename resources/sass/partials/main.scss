@@ -1,0 +1,33 @@
+main {
+    background-image: url("/img/fondo-pag-speciali.jpg");
+    .container {
+        h2 {
+            padding-top: 20px;
+            text-align: center;
+            color: #002d75;
+        }
+        .pasta {
+            .card {
+                width: 30%;
+                margin: 1.5%;
+                position: relative;
+                img {
+                    width: 100%;
+                }
+            }
+            .card:hover .overlay {
+                opacity: 1;
+            }
+            .overlay {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                opacity: 0;
+                img {
+                    width: 50px;
+                }
+            }
+        }
+    }
+}
