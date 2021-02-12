@@ -18,8 +18,7 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('prodotti', function () {
-    $pasta = config('data.pasta');
-    // dd(config('data'));
+    $pasta = json_decode(config('data.pasta'),true);
     return view('prodotti', compact('pasta'));
 })->name('prodotti');
 
