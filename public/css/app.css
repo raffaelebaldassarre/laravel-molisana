@@ -29,23 +29,20 @@ body header .navbar {
   height: 40px;
 }
 
-body header .navbar ul {
+body header .navbar nav {
   display: flex;
   list-style: none;
 }
 
-body header .navbar ul li {
+body header .navbar nav a {
   margin: 0 20px;
-}
-
-body header .navbar ul li :hover {
-  border-bottom: 4px solid #002d75;
-  color: #002d75;
-}
-
-body header .navbar ul li a {
   text-decoration: none;
   color: white;
+}
+
+body header .navbar nav :hover {
+  border-bottom: 4px solid #002d75;
+  color: #002d75;
 }
 
 main {

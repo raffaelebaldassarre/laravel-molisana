@@ -11,19 +11,17 @@ body {
             background-color: #b1d281;
             width: 100vw;
             height: 40px;
-            ul {
+            nav {
                 display: flex;
                 list-style: none;
-                li {
+                a {
                     margin: 0 20px;
-                    :hover {
-                        border-bottom: 4px solid #002d75;
-                        color: #002d75;
-                    }
-                    a {
-                        text-decoration: none;
-                        color: white;
-                    }
+                    text-decoration: none;
+                    color: white;
+                }
+                :hover {
+                    border-bottom: 4px solid #002d75;
+                    color: #002d75;
                 }
             }
         }
