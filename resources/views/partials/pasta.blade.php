@@ -7,6 +7,7 @@
         <div class="overlay d-flex">
             <img src="{{ asset('/img/icon.svg') }}" alt="">
             <p>{{ $pasta['titolo'] }}</p>
+            <p>{{ $pasta['cottura'] }}</p>
         </div>
     </div>
     @endif
@@ -21,6 +22,7 @@
         <div class="overlay d-flex">
             <img src="{{ asset('/img/icon.svg') }}" alt="">
             <p>{{ $pasta['titolo'] }}</p>
+            <p>{{ $pasta['cottura'] }}</p>
         </div>
     </div>
     @endif
@@ -35,6 +37,7 @@
         <div class="overlay d-flex">
             <img src="{{ asset('/img/icon.svg') }}" alt="">
             <p>{{ $pasta['titolo'] }}</p>
+            <p>{{ $pasta['cottura'] }}</p>
         </div>
     </div>
     @endif

@@ -86,3 +86,11 @@ main .container .pasta .overlay img {
   width: 50px;
 }
 
+main .container .pasta .overlay p {
+  color: #002d75;
+  font-size: 30px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
