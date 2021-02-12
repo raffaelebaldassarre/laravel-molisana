@@ -40,7 +40,7 @@ body header .navbar nav a {
   color: white;
 }
 
-body header .navbar nav :hover {
+body header .navbar nav .active {
   border-bottom: 4px solid #002d75;
   color: #002d75;
 }
