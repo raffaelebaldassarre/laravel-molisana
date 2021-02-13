@@ -34,6 +34,9 @@ main {
                     font-size: 30px;
                     width: max-content;
                 }
+                p:first-of-type {
+                    cursor: pointer;
+                }
             }
         }
     }

@@ -91,3 +91,7 @@ main .container .pasta .overlay p {
   width: max-content;
 }
 
+main .container .pasta .overlay p:first-of-type {
+  cursor: pointer;
+}
+
