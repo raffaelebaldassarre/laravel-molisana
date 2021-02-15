@@ -83,7 +83,8 @@ main .container .pasta .overlay img {
   width: 50px;
 }
 
-main .container .pasta .overlay p {
+main .container .pasta .overlay p,
+main .container .pasta .overlay h3 {
   color: #002d75;
   font-size: 30px;
   width: -webkit-max-content;
@@ -91,7 +92,11 @@ main .container .pasta .overlay p {
   width: max-content;
 }
 
-main .container .pasta .overlay p:first-of-type {
+main .container .pasta .overlay a {
+  text-decoration: none;
+}
+
+main .container .pasta .overlay a h3 {
   cursor: pointer;
 }
 

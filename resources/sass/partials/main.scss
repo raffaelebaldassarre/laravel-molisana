@@ -29,13 +29,17 @@ main {
                 img {
                     width: 50px;
                 }
-                p {
+                p,
+                h3 {
                     color: #002d75;
                     font-size: 30px;
                     width: max-content;
                 }
-                p:first-of-type {
-                    cursor: pointer;
+                a {
+                    text-decoration: none;
+                    h3 {
+                        cursor: pointer;
+                    }
                 }
             }
         }

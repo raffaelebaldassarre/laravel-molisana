@@ -22,6 +22,17 @@ Route::get('prodotti', function () {
     return view('prodotti', compact('pasta'));
 })->name('prodotti');
 
+Route::get('prodotti/{key}', function ($key) {
+    $pasta = json_decode(config('data.pasta'),true);
+    // dd($key > count($pasta) - 1);
+    if($key > count($pasta) - 1){
+        abort(404);
+    }else{
+    $prodotto = $pasta[$key];
+    return view('prodotto', compact('prodotto'));
+    }
+})->name('prodotto');
+
 Route::get('contatti', function () {
     return view('contatti');
 })->name('contatti');
